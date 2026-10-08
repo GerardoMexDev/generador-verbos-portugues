@@ -2,7 +2,7 @@
 
 **Proyecto:** Verbos em contexto (app para practicar verbos del portugués brasileño)
 **Cliente:** Gerardo (uso propio, para su curso de portugués)
-**Repo:** sin repositorio Git todavía
+**Repo:** https://github.com/GerardoMexDev/generador-verbos-portugues (público, rama `main`)
 **Última actualización:** 2026-10-08
 **Estado general:** en desarrollo (v0.1.0, catálogo de 100 verbos cargado)
 
@@ -22,7 +22,7 @@
 ### Al FINALIZAR una sesión
 1. Gerardo pide: "Actualizá el log y preparemos el cierre".
 2. Claude actualiza este archivo (hecho, decisiones, lecciones, próximos pasos).
-3. Comandos de cierre de Git (cuando exista repo).
+3. Comandos de cierre de Git: `git add -A`, `git commit`, `git push`.
 4. Nada queda sin guardar.
 
 ---
@@ -159,7 +159,8 @@ App web (luego móvil) para practicar portugués brasileño con foco en verbos: 
 - En este Windows, los scripts de npm ejecutan las CLI locales con `node ./node_modules/...` en vez de los lanzadores `.bin`, para evitar fallos al resolver `vite`.
 
 ## 11. Despliegue
-- Sin definir todavía.
+- Código en GitHub (repo público, creado el 2026-10-08). Hosting de la app sin definir todavía.
+- `.gitattributes` marca `*.pdf` como binario: sin eso Git convertía los saltos de línea y corrompía el PDF.
 
 ---
 
